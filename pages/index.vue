@@ -1,7 +1,13 @@
 <template>
-  <div class="container">
+  <div>
+    <div class="container">
+      <div>
+        <img src="~/assets/images/amboss.png"> </div>
+    </div>
     <div>
-      <img src="~/assets/images/smoke.png">
+      <nav>
+        <router-link to="/info">Info</router-link>
+      </nav>
     </div>
   </div>
 </template>
@@ -19,15 +25,12 @@ export default {
 */
 .container {
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
-body {
-  background-color: #c7c7c7;
+nav {
+  padding: 2rem;
 }
-
 </style>
